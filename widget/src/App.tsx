@@ -7,7 +7,7 @@ const API_BASE =
   (window as any).__AIWIDGET_API__ ||
   new URLSearchParams(window.location.search).get('api') ||
   process.env.REACT_APP_API_BASE ||
-  'https://msie-possibility-daughters-ja.trycloudflare.com';
+  'http://localhost:3001';
 
 const SITE_KEY =
   (window as any).__AIWIDGET_SITE_KEY__ ||
